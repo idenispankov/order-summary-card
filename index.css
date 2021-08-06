@@ -1,0 +1,164 @@
+.body {
+  background: url('./images/pattern-background-mobile.svg') no-repeat
+    top/contain;
+  background-color: #e0e8ff;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 327px;
+  height: 568px;
+  background: #fff;
+}
+
+.card__image {
+  background: url('./images/illustration-hero.svg') no-repeat center
+    center/cover;
+  width: 100%;
+  height: 160px;
+}
+
+.container {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin: 0;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #717fa6;
+}
+
+.plan {
+  background: #f7f9ff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-bottom: 24px;
+  min-width: 279px;
+}
+
+.plan__group_image {
+  background: url('./images/icon-music.svg') no-repeat;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  margin-left: 16px;
+}
+
+.plan__group_text {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1f2e55;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.plan__group_price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #717fa6;
+  margin: 0;
+}
+
+.plan__text_change {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #382ae1;
+  margin: 0;
+  margin-right: 16px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.plan__text_change:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.plan__group {
+  display: flex;
+}
+
+.button__submit {
+  border: none;
+  display: block;
+  min-width: 279px;
+  margin: 0 auto;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  padding: 15px 64px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.button__submit:hover {
+  background: #766cf1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.button__cancel {
+  padding: 0;
+  display: block;
+  min-width: 279px;
+  margin: 0 auto;
+  border: none;
+  background: transparent;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.button__cancel:hover {
+  color: #1f2e55;
+}
+
+@media screen and (min-width: 375px) {
+  .main {
+    align-items: center;
+  }
+  .card {
+    border-radius: 20px;
+  }
+  .card__image {
+    border-radius: 20px 20px 0 0;
+  }
+}
