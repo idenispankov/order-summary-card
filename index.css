@@ -1,6 +1,5 @@
 .body {
-  background: url('./images/pattern-background-mobile.svg') no-repeat
-    top/contain;
+  background: url('./images/background_overlay.svg') no-repeat top/contain;
   background-color: #e0e8ff;
 }
 
@@ -13,7 +12,7 @@
 .card {
   width: 100%;
   max-width: 327px;
-  height: 568px;
+  min-height: 568px;
   background: #fff;
 }
 
@@ -160,5 +159,61 @@
   }
   .card__image {
     border-radius: 20px 20px 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 450px;
+  }
+  .card__image {
+    height: 220px;
+  }
+  .container {
+    padding: 45px 48px;
+  }
+  .heading {
+    margin-bottom: 17px;
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+  .plan {
+    padding: 17px 0;
+    margin-bottom: 32px;
+    min-width: 354px;
+  }
+  .plan__group_text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 6px;
+  }
+  .plan__group_image {
+    margin-left: 24px;
+  }
+  .plan__group_price {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .plan__text_change {
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .button__submit {
+    padding: 15px 102px;
+    width: 354px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 32px;
+  }
+  .button__cancel {
+    font-size: 15px;
+    line-height: 20px;
   }
 }
