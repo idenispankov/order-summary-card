@@ -1,0 +1,22 @@
+@import url('./__text_change/plan__text_change.css');
+@import url('./__group/plan__group.css');
+
+.plan {
+  background: #f7f9ff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-bottom: 24px;
+  min-width: 279px;
+}
+
+@media screen and (min-width: 768px) {
+  .plan {
+    padding: 17px 0;
+    margin-bottom: 32px;
+    min-width: 354px;
+  }
+}

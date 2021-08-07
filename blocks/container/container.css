@@ -1,0 +1,13 @@
+.container {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 45px 48px;
+  }
+}

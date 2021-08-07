@@ -1,0 +1,25 @@
+.button__cancel {
+  padding: 0;
+  display: block;
+  min-width: 279px;
+  margin: 0 auto;
+  border: none;
+  background: transparent;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.button__cancel:hover {
+  color: #1f2e55;
+}
+
+@media screen and (min-width: 768px) {
+  .button__cancel {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

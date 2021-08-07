@@ -1,0 +1,7 @@
+@import url('./__group_image/plan__group_image.css');
+@import url('./__group_text/plan__group_text.css');
+@import url('./__group_price/plan__group_price.css');
+
+.plan__group {
+  display: flex;
+}

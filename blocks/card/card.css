@@ -1,0 +1,20 @@
+@import './__image/card__image.css';
+
+.card {
+  width: 100%;
+  max-width: 327px;
+  min-height: 568px;
+  background: #fff;
+}
+
+@media screen and (min-width: 375px) {
+  .card {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 450px;
+  }
+}

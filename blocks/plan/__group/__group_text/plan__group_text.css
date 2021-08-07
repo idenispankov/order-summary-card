@@ -1,0 +1,16 @@
+.plan__group_text {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1f2e55;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .plan__group_text {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 6px;
+  }
+}
