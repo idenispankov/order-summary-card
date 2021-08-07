@@ -3,3 +3,10 @@
   background-color: #e0e8ff;
   font-family: 'Red Hat Display', sans-serif;
 }
+
+@media screen and (min-width: 768px) {
+  .body {
+    background: url('../../images/background_desktop.svg') no-repeat top;
+    background-color: #e0e8ff;
+  }
+}
