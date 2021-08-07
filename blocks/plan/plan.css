@@ -8,15 +8,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 17px 0;
+  padding-top: 17px;
+  padding-bottom: 16px;
   margin-bottom: 24px;
   min-width: 279px;
 }
 
 @media screen and (min-width: 768px) {
   .plan {
-    padding: 17px 0;
+    padding: 0;
     margin-bottom: 32px;
     min-width: 354px;
+    height: 98px;
   }
 }
