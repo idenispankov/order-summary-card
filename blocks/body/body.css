@@ -1,4 +1,5 @@
 .body {
   background: url('../../images/background_overlay.svg') no-repeat top/contain;
   background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
 }
